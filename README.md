@@ -16,7 +16,7 @@ I have removed `frida-gum` dependency as it's not required for injection and hav
 # Building
 
 ```sh
-$ PATH="$PATH:$HOME/Android/Sdk/ndk/22.0.7026061" mak
+$ PATH="$PATH:$HOME/Android/Sdk/ndk/22.0.7026061" make
 ```
 
 This will build the injector, the agent, and an example program you can inject the agent into to easily observe the results.
